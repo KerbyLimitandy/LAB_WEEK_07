@@ -39,6 +39,10 @@ android {
     }
 }
 
+secrets {
+    defaultPropertiesFileName = "app/secret.properties"
+}
+
 dependencies {
     implementation("com.google.android.gms:play-services-location:21.2.0")
     implementation("androidx.activity:activity-ktx:1.9.0")
